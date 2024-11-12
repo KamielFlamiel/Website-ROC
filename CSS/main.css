@@ -8,5 +8,18 @@
 width: 100%;
 height: 1080px;
 background-color: white;
+}
+  .main-body {
+    width: 100%;
+    height: 2170px;
+    background-color: white;
+   }
+
+  .welkom {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 448px;
   }
 
+  
