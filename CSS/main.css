@@ -22,4 +22,47 @@ background-color: white;
     height: 448px;
   }
 
+  .welkom-text {
+    width: 420px;
+    height: 158px;
+    padding: 40px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: #402e56;
+    padding-bottom: 5px;
+  }
+
+  .toekomst {
+  display: flex;
+  flex-direction: column;
+  width: 513px;
+  height: 88px; 
+  padding: 40px;
+  margin-left: 30px;
+  }
+
+
+  .toekomst-text1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #402e56;
+  }
+
+  .toekomst-text2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #402e56;
+  }
+
+  .welkom-image {
+    width: 577px;
+    height: 336px;
+    border: none;
+    border-radius: 40px;
+  }
+
   
