@@ -17,12 +17,20 @@ background-color: white;
 
   .welkom {
     display: flex;
+    flex-direction: row;
+    width: 720px;
+    height: 448px;
+    padding-left: 50px;
+  }
+
+  .welkom-text {
+    display: flex;
     flex-direction: column;
     width: 1440px;
     height: 448px;
   }
 
-  .welkom-text {
+  .welkom-text-head {
     width: 420px;
     height: 158px;
     padding: 40px;
@@ -56,6 +64,14 @@ background-color: white;
     font-size: 32px;
     font-weight: bold;
     color: #402e56;
+  }
+
+  .welkom-image-container {
+    width: 720px;
+    height: 448px;
+    padding-left: 100px;
+    padding-top: 45px;
+
   }
 
   .welkom-image {
