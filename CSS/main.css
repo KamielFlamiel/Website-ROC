@@ -292,35 +292,192 @@ overflow: hidden;
     border-color: #402E56;
   }
 
-  .info-text {
+  .info-head-text-container {
+    display: flex;
+    width: 539px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .info-text-head {
     font-family: "Montserrat", sans-serif;
     font-size: 36px;
     font-weight: bold;
     color: #402e56;
     text-align: center;
+    height: 50px;
+  }
+
+  .software-info-container {
+    display: flex;
+    flex-direction: row;
+    width: 398px;
+    height: 162px;
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    width: 191px;
+    height: 161px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 59px;
+    margin-top: 30px;
   }
 
   .info-niveau {
+    display: flex;
     width: 191px;
     height: 33px;
     border: none;
     border-radius: 10px;
     background-color: #f0f0f7;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .info-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #402e56;
+    margin: 0;
   }
 
   .info-BOL {
+    display: flex;
     width: 61px;
     height: 33px;
     border: none;
     border-radius: 10px;
     background-color: #f0f0f7;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 31px;
   }
   
   .info-jaar {
+    display: flex;
     width: 127px;
     height: 33px;
     border: none;
     border-radius: 10px;
     background-color: #f0f0f7;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .info-aanmelden {
+    display: flex;
+    width: 134px;
+    height: 33px;
+    border: solid;
+    border-radius: 100px;
+    border-color: #402E56;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .info-aanmelden:hover {
+    display: flex;
+    width: 134px;
+    height: 33px;
+    border: none;
+    border-radius: 100px;
+    border-color: #402E56;
+    background-color: #565699;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  
+  .info-opendagen {
+    display: flex;
+    width: 134px;
+    height: 33px;
+    border: solid;
+    border-radius: 100px;
+    border-color: #402E56;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 31px;
+    margin-bottom: 31px;
+  }
+
+  .info-opendagen:hover {
+    display: flex;
+    width: 134px;
+    height: 33px;
+    border: none;
+    border-radius: 100px;
+    border-color: #402E56;
+    background-color: #565699;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 31px;
+    margin-bottom: 31px;
   }
   
+  
+  .info-meelopen {
+    display: flex;
+    width: 134px;
+    height: 33px;
+    border: solid;
+    border-radius: 100px;
+    border-color: #402E56;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .info-meelopen:hover {
+    display: flex;
+    width: 134px;
+    height: 33px;
+    border: none;
+    border-radius: 100px;
+    border-color: #402E56;
+    background-color: #565699;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+  }
