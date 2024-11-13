@@ -140,6 +140,15 @@ overflow: hidden;
     border-radius: 100px;
   }
 
+  .interesse-button:hover {
+    width: 220px;
+    height: 70px;
+    background-color: #565699;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
   .interesse-text-button {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
@@ -171,6 +180,15 @@ overflow: hidden;
     background-color: #6E6EB4;
     border: none;
     border-radius: 100px;
+  }
+
+  .locaties-button:hover {
+    width: 220px;
+    height: 70px;
+    background-color: #565699;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
   }
 
   .locaties-text-button {
