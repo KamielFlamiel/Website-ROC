@@ -113,6 +113,7 @@ body {
     text-align: center;
     font-size: 24px;
     transition: 2s;
+    text-decoration: none;
   }
   
   .eyecatcher-header-container:hover{
@@ -121,6 +122,10 @@ body {
     cursor: pointer;
   }
   
+  .sigma {
+    width: 100px;
+    height: 100px;
+  }
   
   .eyecatcher-text{
     font-size: 32px;
