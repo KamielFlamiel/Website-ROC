@@ -60,12 +60,12 @@ overflow: hidden;
   }
 
   .toekomst {
-  display: flex;
-  flex-direction: column;
-  width: 513px;
-  height: 88px; 
-  padding: 40px;
-  margin-left: 30px;
+   display: flex;
+   flex-direction: column;
+   width: 513px;
+   height: 88px; 
+   padding: 40px;
+   margin-left: 30px;
   }
 
 
@@ -199,4 +199,128 @@ overflow: hidden;
     text-align: center;
   }
 
+  .software-dev-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1440px;
+    height: 448px;
+    margin-left: 100px;
+  }
+
+  .dev-text {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    height: 448px;
+  }
+
+  .dev-text-head {
+    width: 670px;
+    height: 80px;
+    padding: 40px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: #402e56;
+    padding-top: 70px;
+  }
+
+  .dev-text-norm {
+   display: flex;
+   flex-direction: column;
+   width: 785px;
+   height: 169px; 
+  }
+
+
+  .dev-text1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #402e56;
+    text-align: center;
+  }
+
+
+
+  .dev-image-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 720px;
+    height: 448px;
+    margin-top: 20px;
+  }
+
+  .dev-image {
+    width: 466px;
+    height: 385px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .software-dev-container2 {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 100px;
+    align-items: center;
+    padding-left: 25px;
+  }
+
+  .software-dev-head-text {
+    width: 1024px;
+    height: 100px;
+  }
+
+  .software-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #402e56;
+    text-align: center;
+  }
+
+  .software-dev-info {
+    display: flex;
+    flex-direction: column;
+    width: 539px;
+    height: 278px;
+    border: solid;
+    border-radius: 20px;
+    border-color: #402E56;
+  }
+
+  .info-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #402e56;
+    text-align: center;
+  }
+
+  .info-niveau {
+    width: 191px;
+    height: 33px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f7;
+  }
+
+  .info-BOL {
+    width: 61px;
+    height: 33px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f7;
+  }
+  
+  .info-jaar {
+    width: 127px;
+    height: 33px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f7;
+  }
   
