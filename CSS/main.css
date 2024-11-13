@@ -1,18 +1,35 @@
 * {
     margin: 0px;
     padding: 0px;
+    z-index: 1;
   }
   
 .website_container {
-
 width: 100%;
 height: 1080px;
 background-color: white;
+position: relative;
+overflow: hidden;
 }
+
   .main-body {
     width: 100%;
     height: 2170px;
     background-color: white;
+   }
+
+   .background-square {
+    position: absolute;
+    width: 1248px; 
+    height: 1232px; 
+    background-color: rgba(182, 182, 217, 0.2); 
+    transform: rotate(39deg); 
+    top: 50%;
+    left: 50%; 
+    transform-origin: center; 
+    margin-top: -100px; 
+    margin-left: -30px; 
+    z-index: 0; 
    }
 
   .welkom {
@@ -79,6 +96,89 @@ background-color: white;
     height: 336px;
     border: none;
     border-radius: 40px;
+  }
+
+  .line {
+    width: 1023px;
+    height: 1px;
+    background-color: #402E56;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .onderwerp-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1440px;
+    height: 580px;
+
+  }
+
+  .interesse-onderwerp {
+    display: flex;
+    flex-direction: column;
+    width: 471px;
+    height: 580px;
+    align-items: center;
+  }
+
+  .interesse-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #402e56;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .interesse-button {
+    width: 220px;
+    height: 70px;
+    background-color: #6E6EB4;
+    border: none;
+    border-radius: 100px;
+  }
+
+  .interesse-text-button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .locaties-onderwerp {
+    display: flex;
+    flex-direction: column;
+    width: 471px;
+    height: 580px;
+    align-items: center;
+  }
+
+  .locaties-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #402e56;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .locaties-button {
+    width: 220px;
+    height: 70px;
+    background-color: #6E6EB4;
+    border: none;
+    border-radius: 100px;
+  }
+
+  .locaties-text-button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
   }
 
   
