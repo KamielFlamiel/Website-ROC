@@ -4,14 +4,14 @@
   }
   
 .website_container {
- width: 100%;
- height: auto;
+width: 100%;
+height: auto;
 }
 
 body {
   background-color: #FFFFFF;
   font-family:Arial, Helvetica, sans-serif ;
-  }
+}
   
   .mijn-roc-container-header{
   width:100%;
@@ -23,18 +23,6 @@ body {
   gap: 70%;
   }
 
-  .mijn-roc-nav-bar {
-    display: flex;
-    flex-direction: row;
-    height: 68px;
-    width: 100px;
-  }
-
-  .mijn-roc-nav {
-    display: flex;
-    color: #402E56;
-  }
-  
   .mijn-roc-header{
     font-size: 16px;
     color: #402E56;
