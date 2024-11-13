@@ -48,6 +48,7 @@ body {
   
   .mijn-roc-header:hover{
     font-size: 20px;
+    cursor: pointer;
   }
   
   .lower-header-container{
@@ -88,6 +89,7 @@ body {
     width: 925px;
     border-radius: 20px;
     transition: 1s;
+    cursor: pointer;
   }
   
   .header-campus{
@@ -115,6 +117,7 @@ body {
   .eyecatcher-header-container:hover{
     font-size: 28px;
     transition: 1s;
+    cursor: pointer;
   }
   
   
