@@ -13,7 +13,7 @@ body {
   font-family:Arial, Helvetica, sans-serif ;
 }
   
-  .mijn-roc-container-header{
+.mijn-roc-container-header{
   width:100%;
   height:68px;
   background-color:#F0F0F7;
@@ -22,7 +22,7 @@ body {
   justify-content: space-around;
   gap: 70%;
   }
-
+  
   .mijn-roc-header{
     font-size: 16px;
     color: #402E56;
@@ -40,7 +40,6 @@ body {
     margin: 15px;
     border-radius: 30px;
     transition: 0.5s;
-    text-decoration: none;
   }
   
   .logo-header{
@@ -49,7 +48,6 @@ body {
   
   .mijn-roc-header:hover{
     font-size: 20px;
-    cursor: pointer;
   }
   
   .lower-header-container{
@@ -90,9 +88,8 @@ body {
     width: 925px;
     border-radius: 20px;
     transition: 1s;
-    cursor: pointer;
   }
-
+  
   .header-campus{
     margin-top: 10px;
   }
@@ -113,19 +110,52 @@ body {
     text-align: center;
     font-size: 24px;
     transition: 2s;
-    text-decoration: none;
   }
   
   .eyecatcher-header-container:hover{
     font-size: 28px;
     transition: 1s;
-    cursor: pointer;
   }
+  
   
   .eyecatcher-text{
     font-size: 32px;
   }
-
+  
+  
+  .header-pagina-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: -67px;
+  }
+  
+  .header-pagina{
+    width: 160px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 15px;
+    background-color: #6e6eb4cb;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .header-pagina-selecteerd{
+    font-size: 24px;
+    opacity: 1;
+    color: #402E56;
+    background-color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+  }
+  
+  
+  
   .main-body {
     width: 100%;
     height: 3000px;
