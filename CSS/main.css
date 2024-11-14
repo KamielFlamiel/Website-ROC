@@ -119,11 +119,9 @@ body {
     transition: 1s;
   }
   
-  
   .eyecatcher-text{
     font-size: 32px;
   }
-  
   
   .header-pagina-container{
     display: flex;
@@ -132,7 +130,7 @@ body {
     gap: 20px;
     font-size: 24px;
     color: #FFFFFF;
-    margin-top: -67px;
+    margin-top: -66px;
   }
   
   .header-pagina{
@@ -148,15 +146,22 @@ body {
   }
   
   .header-pagina-selecteerd{
-    font-size: 24px;
     opacity: 1;
     color: #402E56;
     background-color: #FFFFFF;
-    border: none;
-    text-decoration: none;
   }
-  
-  
+
+  .header-pagina-nav-select {
+    text-decoration: none;
+    font-size: 24px;
+    color: #402E56;
+  }
+
+  .header-pagina-nav {
+    text-decoration: none;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
   
   .main-body {
     width: 100%;
