@@ -1,0 +1,198 @@
+*{margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: white;
+    color: #402E56;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-header-text{
+    font-size: 64px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.contact-light-text{
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact-veel-vragen-tag{
+    color: white;
+    font-weight: bold;
+    background-color: #6E6EB4;
+    border-radius: 50px;
+    height: auto;
+    width: 200px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    margin: auto;
+    transition: 2s;
+}
+
+.contact-veel-vragen-tag:hover{
+    transition: 1s;
+    font-size: 17px;
+    background-color: #402E56;
+}
+
+.contact-upper-left-informatie-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0;
+    width: 50%;
+    height: auto;
+}
+
+.contact-upper-informatie-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 60px;
+    gap: 70px;
+}
+
+.contact-upper-right-informatie-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contact-header-tag{
+    background-color: #A0D4EC;
+    border-radius: 50px;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.contact-text{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-right-informatie-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 95%;
+}
+
+
+.main-streep{               /*negeer deze streep. als het goed is heb je all dit van mijn 3rde pagina*/
+    width: 90%;
+    height: 2px;
+    background-color: #402E56;
+    margin: auto;
+}
+
+.contact-lower-header-text{
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contact-contactforum-container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 2px #B6B6D9;
+    width: 50%;
+    margin: auto;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contact-contactforum-text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.contact-contactforum-input-name{
+    text-align: start;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+
+input{
+    width: 85%;
+    padding: 12px 20px;
+    margin: auto;
+    display: inline-block;
+    border: 2px solid #B6B6D9;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.contact-input-header{
+    font-weight: bold;
+    color: #402E56;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: -30px;
+}
+
+.contact-input-text{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.contact-telefoon-nummer{
+    font-size: 40px;
+    width: 85%;
+    height: auto;
+    padding: 0px;
+    background-color: #A0D4EC;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.contact-bericht{
+    height: 250px;
+}
+
+.contact-versturen{
+    background-color: #6E6EB4;
+    color: white;
+    font-weight: bolder;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    width: 30%;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-left: 50px;
+    transition: 2s;
+}
+
+.contact-versturen:hover{
+    transition: 1s;
+    background-color: #402E56;
+    font-size: 22px;
+}
+
+.contact-lower-input{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-right: 8%;
+}
