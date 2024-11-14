@@ -9,8 +9,21 @@
 }
 
 .item {
-  font-size: 18px;
-  margin-bottom: 4px;
+  font-size: 21px;
+  margin-bottom: 7px;
+  font-family: "Mont", sans-serif;
+  color: #402E56;;
+}
+
+.item1 {
+  font-size: 21px;
+  margin-bottom: 25px;
+  font-family: "Mont", sans-serif;
+  color: white;
+}
+.item-locatie {
+  font-size: 21px;
+  margin-bottom: 7px;
   font-family: "Mont", sans-serif;
 }
 
@@ -42,9 +55,15 @@
 .footersectie1sub2 {
   height: 241px;
   width: 20%;
-  background-color: red;
+  background-color: #F0F0F7;
 }
-
+.footer-list-sub1 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 40px;
+}
 .footer-list-sub2 {
   list-style-type: none;
   padding: 0;
@@ -55,7 +74,7 @@
 
 .footer-list-sub2 .item:first-child {
   font-size: 24px;
-
+color: black;
   font-weight: bolder;
 
 }
@@ -69,13 +88,13 @@
 .footersectie1sub4 {
   height: 241px;
   width: 20%;
-  background-color: orange;
+  background-color: #F0F0F7;
 }
 
 .footersectie1sub5 {
   height: 241px;
   width: 20%;
-  background-color: red;
+  background-color: #F0F0F7;
 }
 
 .footersectie2 {
@@ -83,7 +102,7 @@
   flex-direction: row;
   height: 122px;
   width: 100%;
-  background-color: white;
+  background-color: #F0F0F7;
 }
 
 .footersectie2sub1 {
