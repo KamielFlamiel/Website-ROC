@@ -122,3 +122,32 @@ gap: 70%;
 }
 
 
+.header-pagina-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-top: -67px;
+}
+
+.header-pagina{
+  width: 160px;
+  height: auto;
+  padding: 20px;
+  padding-bottom: 15px;
+  background-color: #6e6eb4cb;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-pagina-selecteerd{
+  opacity: 1;
+  color: #402E56;
+  background-color: #FFFFFF;
+}
+
+
