@@ -1,16 +1,130 @@
 * {
     margin: 0px;
     padding: 0px;
-    z-index: 1;
   }
   
 .website_container {
 width: 100%;
-height: 1200px;
-background-color: white;
-position: relative;
-overflow: hidden;
+height: auto;
 }
+
+body {
+  background-color: #FFFFFF;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+  
+  .mijn-roc-container-header{
+  width:100%;
+  height:68px;
+  background-color:#F0F0F7;
+  display: flex;
+  flex-direction:row-reverse;
+  justify-content: space-around;
+  gap: 70%;
+  }
+
+  .mijn-roc-header{
+    font-size: 16px;
+    color: #402E56;
+    background-color: #F0F0F7;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #6E6EB4;
+    height: 37px;
+    font-weight: bold;
+    width: 106px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 30px;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  
+  .logo-header{
+    margin-top: 20px;
+  }
+  
+  .mijn-roc-header:hover{
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .lower-header-container{
+    width:100%;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .zoek-icon-header{
+    margin: 17px;
+  }
+  
+  .zoek-word-header{
+    font-weight: bolder;
+    margin-top: 17px;
+    margin-right: 10px;
+  }
+  
+  .zoeken-header{
+    display: flex;
+    flex-direction: row;
+    width: 225px;
+    height: 69px;
+    background-color: #F0F0F7;
+    border-radius: 50px;
+    font-size: 32px;
+    justify-content: space-between;
+    margin-top: 1%;
+    color: #402E56;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #6E6EB4;
+    margin-right: 4%;
+    transition: 2s;
+  }
+  
+  .zoeken-header:hover{
+    width: 925px;
+    border-radius: 20px;
+    transition: 1s;
+    cursor: pointer;
+  }
+
+  .header-campus{
+    margin-top: 10px;
+  }
+  
+  .eyecatcher-header-container{
+    width: 407px;
+    height: 119px;
+    background-color: #402E56;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.9;
+    border-radius: 10px 30px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 24px;
+    transition: 2s;
+    text-decoration: none;
+  }
+  
+  .eyecatcher-header-container:hover{
+    font-size: 28px;
+    transition: 1s;
+    cursor: pointer;
+  }
+  
+  .eyecatcher-text{
+    font-size: 32px;
+  }
 
   .main-body {
     width: 100%;
@@ -18,45 +132,31 @@ overflow: hidden;
     background-color: white;
    }
 
-   .background-square {
-    position: absolute;
-    width: 1248px; 
-    height: 1232px; 
-    background-color: rgba(182, 182, 217, 0.2); 
-    transform: rotate(39deg); 
-    top: 50%;
-    left: 50%; 
-    transform-origin: center; 
-    margin-top: -100px; 
-    margin-left: -30px; 
-    z-index: 0; 
-   }
 
   .welkom {
     display: flex;
     flex-direction: row;
-    width: 720px;
+    width: 100%;
     height: 448px;
-    padding-left: 120px;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .welkom-text {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: auto;
     height: 448px;
   }
 
   .welkom-text-head {
     width: 420px;
     height: 158px;
-    padding: 40px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 64px;
     font-weight: bold;
     color: #402e56;
-    padding-bottom: 5px;
   }
 
   .toekomst {
@@ -64,8 +164,6 @@ overflow: hidden;
    flex-direction: column;
    width: 513px;
    height: 88px; 
-   padding: 40px;
-   margin-left: 30px;
   }
 
 
@@ -86,9 +184,8 @@ overflow: hidden;
   .welkom-image-container {
     width: 720px;
     height: 448px;
-    padding-left: 100px;
-    padding-top: 45px;
-
+    justify-content: center;
+    align-items: center;
   }
 
   .welkom-image {
@@ -155,6 +252,7 @@ overflow: hidden;
     font-weight: bold;
     color: #ffffff;
     text-align: center;
+    text-decoration: none;
   }
 
   .locaties-onderwerp {
@@ -197,6 +295,7 @@ overflow: hidden;
     font-weight: bold;
     color: #ffffff;
     text-align: center;
+    text-decoration: none;
   }
 
   .software-dev-container {
